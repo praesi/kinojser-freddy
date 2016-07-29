@@ -1,0 +1,36 @@
+/* We just give you the arrow CSS code */
+.product-arrow {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid transparent;
+  border-bottom: 9px solid black;
+  border-radius: 2px;
+  margin: auto;
+}
+
+
+.product {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: white;
+}
+.product-body {
+    flex: 1 0 auto;
+}
+.product-upvote{
+  text-align: center;
+  padding: 10px;
+}
+.product-image {
+  border-radius: 5px;
+  margin: 10px;
+  height: 150px;
+  width: 300px;
+}
+.product-controls {
+  align-self: flex-start;
+}
